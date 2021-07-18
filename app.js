@@ -54,5 +54,10 @@ app.post("/", function(req, res){
 			res.sendFile(`${__dirname}/contact.html`);
 	  	}
 	};
-	run();
+
+	run().then(() => {
+	    console.log('Status OK')
+	}).catch((err) => {
+	    console.log(`Erro: ${err}`)
+	})
 });
