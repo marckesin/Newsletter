@@ -1,0 +1,31 @@
+{
+  "name": "newsletter_signup",
+  "version": "1.0.0",
+  "description": "Newsletter Signup project created using html, css, bootstrap, node.js and express.js.",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "author": "ronaldo",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.41",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaveco/newsletter-project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/xaveco/newsletter-project/issues"
+  },
+  "homepage": "https://github.com/xaveco/newsletter-project#readme"
+}
