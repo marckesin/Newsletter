@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/xaveco/newsletter-project.git"
   },
-  "keywords": [],
+  "keywords": ["node", "express", "mailchimp"],
   "bugs": {
     "url": "https://github.com/xaveco/newsletter-project/issues"
   },
